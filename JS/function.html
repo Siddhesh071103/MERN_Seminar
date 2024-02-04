@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //function myFunc(a, b) 
+        // myFunc = function(a,b)
+        myFunc = (a, b) => {
+            var a2 = a ** 2;
+            var b2 = b ** 2;
+            var res = a2 + (2 * a * b) + b2;
+            return res;
+        }
+
+        console.log(myFunc(25, 12));
+
+        var res = myFunc(2, 3);
+        console.log(res);
+    </script>
+</body>
+
+</html>
